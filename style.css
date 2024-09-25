@@ -21,8 +21,32 @@ body {
 
 .square {
   width: 200px;
-  height: 50vh;
+  height: 200px;
   background-color: green;
+
+  transition: background-color 1s;
+}
+
+.square2 {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+
+  transition: background-color 1s;
+}
+
+.square3 {
+  width: 200px;
+  height: 200px;
+  background-color: lawngreen;
+
+  transition: background-color 1s;
+}
+
+.square4 {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
 
   transition: background-color 1s;
 }
