@@ -5,12 +5,12 @@
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".square", {
-  duration: 3,
   x: 700,
   scrollTrigger: {
     trigger: ".square",
-    start: "top 60%",
-    end: "top 40%",
+    start: "top 100%",
+    end: "top 0%",
+    scrub: true,
     toggleActions: "restart pause resume reset ",
     markers: {
       startColor: "purple",
