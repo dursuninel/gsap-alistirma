@@ -9,9 +9,13 @@ gsap.to(".square", {
   x: 700,
   scrollTrigger: {
     trigger: ".square",
-    start: "top 30%",
-    end: () => `+=${document.querySelector(".square").offsetHeight}`,
-    markers: true,
-    toggleClass: "red"
+    start: "top 60%",
+    end: "top 40%",
+    toggleActions: "restart pause resume reset ",
+    markers: {
+      startColor: "purple",
+      endColor: "fuchsia",
+      fontSize: "3rem",
+    },
   },
 });
